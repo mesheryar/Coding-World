@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.logo{
+    height: 90px;
+    width: 200px;
+}
+.head{
+    background: black;
+    height: 90px;
+    background-attachment: fixed;
+}
+.head ul{
+    float: right;
+    margin-top: 20px;
+}
+.head li{
+    display: inline;
+    flex-direction: column;
+    font-size: 28px;
+}
+.head li a{
+    text-decoration: none;
+    color: white;
+    padding: 30px;
+}
+.head a:hover{
+    color: greenyellow;
+}
+button{
+    color: white;
+    border-radius: 8px;
+    height: 40px;
+    width: 90px;
+    border-color: lightgray;
+    background: black;
+    margin-right: 30px;
+    font-size: 17px;
+}
+button:hover{
+    color: black;
+    background-color: white;
+    cursor: pointer;
+    border-color: greenyellow;
+}
+.div-two{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgHnnva3LZ1zPNoRysdanlEEPyddH6WQ921w&usqp=CAU");
+    background-position: center;
+    color: white;
+    height: 500px;
+    background-size: cover;
+}
+.div-two h1{
+    padding-top: 70px;
+    font-size: 40px;
+    text-align: center;
+}
+
